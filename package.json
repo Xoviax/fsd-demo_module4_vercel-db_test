@@ -9,9 +9,7 @@
     "dev": "concurrently \"npm:start:frontend\" \"npm:start:backend\"",
     "migrate:backend": "npx --workspace=@complexicon/backend prisma migrate dev",
     "start:frontend": "npm run dev --workspace=@complexicon/frontend",
-    "start:backend": "npm start --workspace=@complexicon/backend",
-    "vercel-build": "prisma migrate deploy && prisma db seed && npm run build",
-    "postinstall": "prisma generate"
+    "start:backend": "npm start --workspace=@complexicon/backend"
   },
   "keywords": [],
   "author": "",
