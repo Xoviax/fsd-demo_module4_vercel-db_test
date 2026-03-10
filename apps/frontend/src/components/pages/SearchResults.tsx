@@ -38,6 +38,6 @@ export function SearchResult() {
             </main>
         )
     } else {
-        return(<h1>Sorry, something went wrong</h1>);
+        return(<h1>Oops sorry, something went wrong</h1>);
     }
 }
